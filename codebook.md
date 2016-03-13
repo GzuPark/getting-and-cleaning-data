@@ -84,10 +84,10 @@ Reannounce column names for recognizing easily and create training and test set,
 ### Assignment 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 Extracts specific column names which the assignment requested: mean and standard deviation, also contained actID and subID columns. But, I add the condition which is subtracting '-meanFreq' columns.
 
-### Assignment # 3. Uses descriptive activity names to name the activities in the data set
+### Assignment 3. Uses descriptive activity names to name the activities in the data set
 Merge the cleaned data with activity table which had descriptive activity names.
 
-### Assignment # 4. Appropriately labels the data set with descriptive variable names.
+### Assignment 4. Appropriately labels the data set with descriptive variable names.
 Clear the variable names for reading and understanding using by gsub function. Before doing this, I found patterns for reducing codes.
 
 ### Assignment 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
