@@ -73,3 +73,6 @@ tidyData <- aggregate(tidyData[, colnames(tidyData) != c('actID', 'subID')],
                       mean)
 # merge again with activity table
 tidyData <- merge(tidyData, activity, by='actID')
+
+# save the tidyData for submitting
+write.table(tidyData, file='tidyData.txt', row.names=FALSE)
